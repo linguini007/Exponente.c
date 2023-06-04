@@ -1,7 +1,9 @@
-//Escribir un programa en C que implemente una función para calcular la potencia de un número.
-// La función debe recibir como parámetros la base y el exponente y regresar la potencia calculada.
+//Escribir un programa en C que implemente una funciÃ³n para calcular la potencia de un nÃºmero.
+// La funciÃ³n debe recibir como parÃ¡metros la base y el exponente y regresar la potencia calculada.
 #include "stdio.h"
+//DECLARACION DE LA FUNCION
 int expo(int base, int potencia);
+
 int main (void){
 	int base,potencia;
 	printf("Dame la base: ");
@@ -13,7 +15,7 @@ int main (void){
 	printf("%d",expo(base,potencia));
 	return 0;
 } 
- 
+ //FUNCION DE TIPO ENTERO
  int expo(int base, int potencia){
  	int i,x,res=1;
  		for(i=0; i<potencia ;i++){
